@@ -1,6 +1,13 @@
 [package]
-name = "aoc-2024-01-2"
+name = "aoc_2024_01_2"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
